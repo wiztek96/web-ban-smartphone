@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+#wrapper{
+	width:760px;
+	height:750px;
+	background:#FFF;
+	margin: auto;
+}
+#banner{
+	width:760px;
+	height:150px;
+	background:#F03;
+}
+#menutop{
+	width:760px;
+	height:25px;
+	background:#600;
+}
+#menutop ul{
+	width:760px;
+	height:25px;
+	list-style:none;
+	background-color:#8d3f3f;
+}
+#menutop ul li{
+	float:left;
+	line-height:25px;
+	margin-left:10px;
+}
+#menutop ul li a{
+	color:#FFF;
+	text-decoration:none;
+}
+#menutop a:hover{
+    text-decoration:underline;
+	color:#30C;
+}
+#chao{
+	width:760px;
+	height:25px;
+	background:#f2e8e9;
+}
+#chao p{
+	color:#00C;
+	line-height:25px;
+   
+}
+#left{	
+	width:170px;
+	height:680px;
+	background:#b98989;
+	color:#4225f3;
+	float:left;
+	font-weight:bold;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+.table-category tr {
+	border-bottom: 1px solid blue;
+	height: 34px;
+	vertical-align: bottom;
+}
+.table-category tr:last-child{
+border-bottom: none;
+}
+.table-category{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table-category a{
+	text-decoration: none;
+}
+#danhmucsp{
+    width:170px;
+	height:150px;
+	background:#b98989;
+	color:#0000ff;
+	float:left;
+}
+#danhmucsp ul{
+	width:170px;
+	height:45px;
+	list-style:none;
+	padding:10px;
+}
+#danhmucsp ul li{
+	line-height:2.0;
+	margin-left:10px;
+}
+#danhmucsp ul li a{
+	text-decoration:none;
+	}
+
+#right{
+	border-width: 3px;
+	border-color: red;
+	width:590px;
+	height:680px;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size: 16px;
+	background:#FFF;
+	float:left;
+}
+#right ul li{
+	padding: 6px;
+	list-style-type:none;
+	text-align:center;
+	color:black;
+	width:160px;
+	height:170px;
+	background:#FFF;
+	float:left;
+	margin:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+#noidung{
+	padding:10px;
+	margin:10px;
+	width:360px;
+	height:160px;
+	background:#FFF;
+	float:left;
+	font-size:16px;
+}
+#khung{
+	padding: 30px;
+	width:580px;
+	height:135px;
+	background:#FFF;
+}
+#anh{
+	width:127px;
+	height:127px;
+	box-shadow: 5px 5px 10px black;
+	margin:5px;
+	float:left;
+}
+#picture{
+	width:130px;
+	height:155px;
+	background:#FFF;
+	margin-left:15px;
+	margin:15px;
+}
+#centerlh {
+	font-weight: bold;
+	padding:10px;
+	float:left;
+}
+#footer{
+	padding: 16px;
+	width:730px;
+	height:100px;
+	background:url(../Images/nen_bottom_new.jpg);
+	float:left;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color: #FFFFFF;
+	background-repeat: repeat-x;
+}
